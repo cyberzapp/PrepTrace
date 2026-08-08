@@ -1,0 +1,21 @@
+{
+  "name": "preptrace-backend",
+  "version": "1.0.0",
+  "description": "Node.js & Express Backend with Firestore database for PrepTrace Mobile App",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
+    "google-auth-library": "^9.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "private": true
+}

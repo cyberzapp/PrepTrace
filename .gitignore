@@ -1,0 +1,17 @@
+# Node / React Native
+node_modules/
+.expo/
+dist/
+npm-debug.log
+yarn-error.log
+
+# Security & Secrets
+.env
+.env.*
+preptrace-firebase-adminsdk-*.json
+*.keystore
+google-services.json
+
+# OS
+.DS_Store
+Thumbs.db
