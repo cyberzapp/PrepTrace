@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "78044012449",
+    "project_id": "preptrace",
+    "storage_bucket": "preptrace.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78044012449:android:145e84f65d30f558d7b5e0",
+        "android_client_info": {
+          "package_name": "com.preptrace.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78044012449-a1btujsllp8k033bsm5amth2o2i6r2g6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.preptrace.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "78044012449-o6d8akfi99n8bcts131n9ja2daaob1iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDraLXtS4NZ6n_eHhp-0hKTxU5pr94Dfxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78044012449-o6d8akfi99n8bcts131n9ja2daaob1iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

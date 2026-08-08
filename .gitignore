@@ -10,7 +10,7 @@ yarn-error.log
 .env.*
 preptrace-firebase-adminsdk-*.json
 *.keystore
-google-services.json
+
 
 # OS
 .DS_Store
