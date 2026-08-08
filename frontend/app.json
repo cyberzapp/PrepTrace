@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "PrepTrace",
+    "slug": "preptrace",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "preptrace",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#090d16"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.preptrace.app",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "package": "com.preptrace.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#090d16",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3a82527e-690f-4f26-8053-bac1b501750f"
+      }
+    },
+    "owner": "breathy",
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      "expo-sharing",
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "sounds": [
+            "./assets/notification.wav"
+          ]
+        }
+      ],
+      [
+        "react-native-android-widget",
+        {
+          "widgets": [
+            {
+              "name": "PrepTraceWidget",
+              "label": "PrepTrace Stats",
+              "minWidth": "110dp",
+              "minHeight": "110dp",
+              "description": "Shows your current streak and points",
+              "previewImage": "./assets/icon.png"
+            }
+          ]
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "updates": {
+      "url": "https://u.expo.dev/3a82527e-690f-4f26-8053-bac1b501750f"
+    }
+  }
+}
